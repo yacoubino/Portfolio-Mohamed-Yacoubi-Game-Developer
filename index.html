@@ -1,76 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Game Dev Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohamed Yacoubi – Game Developer</title>
 
-    <!-- Pixel Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="game-window">
+<!-- HERO -->
+<section class="hero-home fade-in">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h1>Mohamed Yacoubi</h1>
+        <p>Game Developer • Narrative Designer • Unity Specialist</p>
+        <a href="#projects" class="btn">Explore Projects</a>
+    </div>
+</section>
 
-    <header class="hero">
-        <h1>MOHAMED YACOUBI</h1>
-        <p>Game Developer | Game Designer | UI Designer</p>
-        <a href="#projects" class="pixel-btn">HIRE ME</a>
-    </header>
-
-    <section class="panel">
-        <h2>ABOUT</h2>
+<!-- ABOUT -->
+<section class="section fade-in">
+    <div class="container">
+        <h2>About</h2>
         <p>
-            Indie game developer focused on cozy, narrative
-            and emotional experiences. I love pixel art,
-            calm gameplay and meaningful mechanics.
+            Creative and skilled game professional with 2 years of experience in game development, game design, and UI design. 
+            Experienced in building engaging gameplay, designing intuitive interfaces, and creating enjoyable player experiences. 
+            Passionate about bringing ideas to life through innovative design and polished implementation while continuously learning new tools and techniques.
         </p>
-    </section>
+    </div>
+</section>
 
-    <section class="panel">
-        <h2>SKILLS</h2>
-        <div class="pixel-grid">
-            <div class="pixel-box">Adobe Suite</div>
-            <div class="pixel-box">Blender</div>
-            <div class="pixel-box">3ds Max</div>
-            <div class="pixel-box">Figma</div>
-            <div class="pixel-box">UI / UX</div>
-            <div class="pixel-box">Adobe Audition</div>
-            <div class="pixel-box">C / C# / C++</div>
-            <div class="pixel-box">MySQL / PHP</div>
-            <div class="pixel-box">JavaScript</div>
-            <div class="pixel-box">Unity</div>
-            <div class="pixel-box">Unreal Engine</div>
-            <div class="pixel-box">Photon</div>
-            <div class="pixel-box">Plastic SCM</div>
-            <div class="pixel-box">Git</div>
-  
+<section class="section fade-in">
+    <div class="container">
+        <h2>Studios I’ve Worked With</h2>
+        <div class="studio-logos">
+            <img src="assets/SIV_Games_Logo.png" alt="Studio 1 Logo">
+            <img src="assets/JS.png" alt="Studio 2 Logo">
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="panel">
-        <h2>🕹️ PROJECTS</h2>
-        <div class="pixel-grid">
-            <a href="Pc Games.html" class="pixel-btn">Pc Games</a>
-            <a href="Mobile Games.html" class="pixel-btn">Mobile Games</a>
-            <a href="UI Design.html" class="pixel-btn">Ui Design</a>
+<!-- PROJECTS -->
+<section id="projects" class="section dark fade-in">
+    <div class="container">
+        <h2>Game Development</h2>
+
+        <div class="projects">
+
+            <a href="Behind The Screen.html" class="project">
+                <video src="videos/room.mp4" autoplay muted loop playsinline></video>
+                <div class="project-info">
+                    <h3>Behind The Screen</h3>
+                    <p>Psychological narrative about digital loneliness.</p>
+                </div>
+            </a>
+
+
+            <a href="A Room Once Shared.html" class="project">
+                <video src="videos/room.mp4" autoplay muted loop playsinline></video>
+                <div class="project-info">
+                    <h3>A Room Once Shared</h3>
+                    <p>Emotional exploration of memory and absence.</p>
+                </div>
+            </a>
+
 
         </div>
-    </section>
-   
+    </div>
+</section>
 
-    <section class="panel">
-        <h2>📬 CONTACT</h2>
+
+<section id="projects" class="section dark fade-in">
+    <div class="container">
+        <h2>Ui Design</h2>
+
+        <div class="projects">
+
+            <a href="FoodPalsRush.html" class="project">
+                <video src="videos/FPR.mp4" autoplay muted loop playsinline></video>
+                <div class="project-info">
+                    <h3>FoodPals Rush</h3>
+                    <p>Arcade-inspired cozy delivery adventure.</p>
+                </div>
+            </a>
+
+            <a href="A Room Once Shared.html" class="project">
+                <video src="videos/psps.mp4" autoplay muted loop playsinline></video>
+                <div class="project-info">
+                    <h3>PspsDreamMart</h3>
+                    <p>Emotional exploration of memory and absence.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<section id="projects" class="section dark fade-in">
+    <div class="container">
+        <h2>Game Jams</h2>
+
+        <div class="projects">
+
+          <a href="FoodPalsRush.html" class="project">
+                <img src="assets/ARS.png" alt="Make Mi Laugh">
+                <div class="project-info">
+                    <h3>Make Mi Laugh</h3>
+                    <p>Arcade-inspired cozy delivery adventure.</p>
+                </div>
+            </a>
+
+            <a href="FoodPalsRush.html" class="project">
+                <img src="assets/2.jpg" alt="Make Mi Laugh">
+                <div class="project-info">
+                    <h3>Living Bubble</h3>
+                    <p>Arcade-inspired cozy delivery adventure.</p>
+                </div>
+            </a>
+
+            <a href="FoodPalsRush.html" class="project">
+                <img src="assets/perception.png" alt="Make Mi Laugh">
+                <div class="project-info">
+                    <h3>Perception</h3>
+                    <p>Arcade-inspired cozy delivery adventure.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<section id="projects" class="section dark fade-in">
+    <div class="container">
+        <h2>Personal Projects</h2>
+
+        <div class="projects">
+
+            <a href="FoodPalsRush.html" class="project">
+                <img src="assets/ARS.png" alt="Make Mi Laugh">
+                <div class="project-info">
+                    <h3>Head Soccer</h3>
+                    <p>Arcade-inspired cozy delivery adventure.</p>
+                </div>
+            </a>
+
+            <a href="FoodPalsRush.html" class="project">
+                <img src="assets/ARS.png" alt="Make Mi Laugh">
+                <div class="project-info">
+                    <h3>Just Focus</h3>
+                    <p>Arcade-inspired cozy delivery adventure.</p>
+                </div>
+            </a>
+
+            <a href="FoodPalsRush.html" class="project">
+                <img src="assets/theif2.png" alt="Make Mi Laugh">
+                <div class="project-info">
+                    <h3>Theif</h3>
+                    <p>Arcade-inspired cozy delivery adventure.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section fade-in">
+    <div class="container">
+        <h2>Contact</h2>
         <p>Email: yacoubiimedd@email.com</p>
-        <p>itch.io • GitHub • LinkedIn</p>
-    </section>
+        <p>LinkedIn • GitHub • itch.io</p>
+    </div>
+</section>
 
-    <footer>
-        <p>© 2026 • PIXEL DEV MODE</p>
-    </footer>
+<footer>
+    © 2026 Mohamed Yacoubi
+</footer>
 
-</div>
-
+<script src="script.js"></script>
 </body>
 </html>

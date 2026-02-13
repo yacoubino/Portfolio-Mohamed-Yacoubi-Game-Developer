@@ -1,76 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Living Bubble</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Living Bubble</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="game-window">
-
-    <!-- HEADER -->
-    <header class="hero">
-        <h1>🖥️ Living Bubble</h1>
-        <p>Psychological Narrative Game</p>
-        <a href="index.html" class="pixel-btn">⬅ BACK</a>
-    </header>
-
-    <!-- STORY -->
-    <section class="panel">
-        <h2>📖 STORY</h2>
-        <p>
-            A young boy, trapped by his mother's overprotection after a family tragedy, faces a choice: 
-            stay confined in his repetitive life or uncover the secrets his family is hiding. As he explores 
-            his home in silence, he pieces together a dark mystery while avoiding his mother’s watchful eye.
-
-        </p>
-    </section>
-
-    <!-- SCREENSHOTS -->
-    <section class="panel">
-        <h2>🖼️ SCREENSHOTS</h2>
-
-        <div class="pixel-grid">
-            <img src="assets/Livin'n Bubble/1.png" class="screenshot" onclick="openLightbox(this)">
-            <img src="assets/Livin'n Bubble/2.png" class="screenshot" onclick="openLightbox(this)">
-            <img src="assets/Livin'n Bubble/3.png" class="screenshot" onclick="openLightbox(this)">
-            <img src="assets/Livin'n Bubble/4.png" class="screenshot" onclick="openLightbox(this)">
-        </div>
-    </section>
-
-
-    <div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
-        <span class="lightbox-close">✖</span>
-        <img id="lightbox-img">
+<!-- HERO -->
+<section class="hero-home fade-in">
+    <div class="hero-overlay"></div>
+    <div class="hero-content fade-in">
+        <h1>Living Bubble</h1>
+        <p>Psychological Narrative Experience</p>
+        <a href="index.html" class="btn">← Back to Portfolio</a>
     </div>
-    <!-- FEATURES -->
-    <section class="panel">
-        <h2>🎮 FEATURES</h2>
-        <ul class="pixel-list">
-            <li>Story-driven gameplay</li>
-            <li>Psychological themes</li>
-            <li>Minimalist pixel visuals</li>
-            <li>Emotional sound design</li>
-        </ul>
-    </section>
+</section>
 
-    <!-- REVIEWS -->
-    <section class="panel">
-        <h2>⭐ REVIEWS</h2>
-        <p>"A quiet but powerful experience." – Player</p>
-        <p>"Emotionally disturbing in the best way." – Indie Reviewer</p>
-    </section>
+<!-- STORY -->
+<section class="section fade-in">
+    <div class="container">
+        <h2>The Experience</h2>
+        <p>
+            A Room Once Shared is a cinematic exploration of memory and emotional
+            stagnation. The player revisits fragments of a past relationship,
+            trapped in a physical space that reflects psychological decay.
+            The game blends minimal mechanics with environmental storytelling
+            to create an intimate, unsettling atmosphere.
+        </p>
+    </div>
+</section>
 
-    <!-- FOOTER -->
-    <footer>
-        <p>© 2026 • PIXEL DEV MODE</p>
-    </footer>
+<!-- TRAILER -->
 
+<!-- SCREENSHOTS -->
+<section class="section fade-in">
+    <div class="container">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="assets/Livin'n Bubble/1.png" onclick="openLightbox(this)">
+            <img src="assets/Livin'n Bubble/2.png" onclick="openLightbox(this)">
+            <img src="assets/Livin'n Bubble/3.png" onclick="openLightbox(this)">
+            <img src="assets/Livin'n Bubble/4.png" onclick="openLightbox(this)">
+
+        </div>
+    </div>
+</section>
+
+<!-- FEATURES -->
+<section class="section dark fade-in">
+    <div class="container features">
+        <div class="feature">
+            <h3>Emotional Narrative</h3>
+            <p>Deep psychological storytelling told through space and silence.</p>
+        </div>
+        <div class="feature">
+            <h3>Minimal Mechanics</h3>
+            <p>Focused interaction to reinforce emotional tension.</p>
+        </div>
+        <div class="feature">
+            <h3>Environmental Storytelling</h3>
+            <p>Details hidden within space, light and sound design.</p>
+        </div>
+    </div>
+</section>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
+    <span class="lightbox-close">✕</span>
+    <img id="lightbox-img">
 </div>
-<script src="script.js"></script>
 
+<footer>
+    © 2026 Mohamed Yacoubi
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
