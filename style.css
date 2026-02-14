@@ -367,3 +367,44 @@ footer {
     border-radius: 10px;
     transition: width 1s ease;
 }
+
+/* PROJECT BREAKDOWN */
+.project-breakdown {
+    margin-top: 60px;
+}
+
+.breakdown-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.breakdown-card {
+    background: rgba(255,255,255,0.03);
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.breakdown-card h3 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.breakdown-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.breakdown-card li {
+    margin-bottom: 12px;
+    font-size: 14px;
+    opacity: 0.85;
+}
+
+/* Responsive */
+@media(max-width: 900px) {
+    .breakdown-grid {
+        grid-template-columns: 1fr;
+    }
+}
